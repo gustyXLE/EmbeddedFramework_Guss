@@ -66,6 +66,7 @@ extern void bsp_frdmkl46z_init(void)
     bsp_frdmkl46z_analog_init();
     bsp_frdmkl46z_pwm_init();
 
+    bsp_frdmkl46z_spi_init();
     bsp_frdmkl46z_uart_init();
     bsp_frdmkl46z_lpsci_init();
 }
