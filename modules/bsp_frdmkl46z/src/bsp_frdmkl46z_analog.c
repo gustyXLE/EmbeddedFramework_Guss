@@ -62,6 +62,7 @@ static const analogAsign_t map[] =
         { EF_HAL_A1, 9 },
         { EF_HAL_A2, 12 },
         { EF_HAL_A3, 13 },
+		{ EF_HAL_LIGHT_SENSOR, 3 },
 };
 
 #define MAP_LENGTH  (sizeof(map) / sizeof(map[0]))
